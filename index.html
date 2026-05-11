@@ -118,14 +118,8 @@
       -webkit-backdrop-filter: blur(12px);
     }
     #navbar .container { display: flex; align-items: center; justify-content: space-between; }
-    .nav-logo {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 1.35rem;
-      font-weight: 400;
-      color: var(--cream);
-      letter-spacing: 0.06em;
-    }
-    .nav-logo span { color: var(--gold); }
+    .nav-logo { display: flex; align-items: center; }
+    .nav-logo img { height: 42px; width: auto; display: block; }
     .nav-links { display: flex; align-items: center; gap: 36px; }
     .nav-links a {
       font-size: 0.78rem;
@@ -502,8 +496,7 @@
       flex-wrap: wrap;
       gap: 24px;
     }
-    .footer-logo { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; font-weight: 400; color: var(--cream); }
-    .footer-logo span { color: var(--gold); }
+    .footer-logo img { height: 48px; width: auto; display: block; }
     .footer-links { display: flex; gap: 28px; flex-wrap: wrap; }
     .footer-links a {
       font-size: 0.75rem;
@@ -589,7 +582,9 @@
   <!-- ─── Navbar ─── -->
   <nav id="navbar">
     <div class="container">
-      <a href="#hero" class="nav-logo">Eliseo Alegre <span>PH</span></a>
+      <a href="#hero" class="nav-logo">
+        <img src="EliseoAlegrePH_White.png" alt="Eliseo Alegre Photography" />
+      </a>
       <ul class="nav-links" id="navLinks">
         <li><a href="#bodas">Bodas</a></li>
         <li><a href="#xv">XV Años</a></li>
@@ -892,7 +887,9 @@
   <footer>
     <div class="container">
       <div class="footer-inner">
-        <div class="footer-logo">Eliseo Alegre <span>PH</span></div>
+        <div class="footer-logo">
+          <img src="EliseoAlegrePH_White.png" alt="Eliseo Alegre Photography" />
+        </div>
         <ul class="footer-links">
           <li><a href="#bodas">Bodas</a></li>
           <li><a href="#xv">XV Años</a></li>
